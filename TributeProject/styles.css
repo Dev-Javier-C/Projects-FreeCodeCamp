@@ -1,0 +1,55 @@
+html{
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgba(0, 255, 255, 0.527);
+}
+.timeline {
+    list-style: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.timeline-item {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+.timeline-item::before {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.timeline-item .timeline-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(82, 151, 184, 0.5);
+    background-color: rgba(187, 192, 206, 0.212);
+}
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(138, 82, 82, 0.5);
+    border-style:hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(82, 153, 129, 0.3);     
+}
+.link{
+    font-size: 25px;
+    font-weight: bold;
+}

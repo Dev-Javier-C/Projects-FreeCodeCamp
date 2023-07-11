@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Survey</title>
+    </head>
+    <body>
+        <h1 id="title">Food Survey</h1>
+        <p id="description">Simple survey to get an idea about people and their thoughts on food</p>
+        <form action="https://register-demo.freecodecamp.org" method="post" id="survey-form">
+            <fieldset>
+                <label for="name" id="name-label">Name : <input type="text" id="name" placeholder="Enter Your Name" required></label>
+            </fieldset>
+            <fieldset>
+                <label for="email" id="email-label">Email : <input type="email" id="email" placeholder="Enter Your Email" required></label>
+            </fieldset>
+            <fieldset>
+                <label for="number" id="number-label">Age : <input type="number" id="number" min="13" max="120" placeholder="0" required></label>
+            </fieldset>
+            <fieldset>
+                <label for="dropdown">
+                    Which best decribles you?
+                    <select name="dropdown" id="dropdown">
+                        <option value="">Select an Option</option>
+                        <option value="1">I cook Daily</option>
+                        <option value="2">I sometimes cook</option>
+                        <option value="3">I rarely cook</option>
+                        <option value="4">I only buy takeout</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="">Would you be open to trying new foods?</label>
+                <label for="yes"><input type="radio" name="choice" id="yes" value="Yes" class="inline"> YES</label>
+                <label for="no"><input type="radio" name="choice" id="no" value="No" class="inline"> NO</label>
+                <label for="maybe"><input type="radio" name="choice" id="maybe" value="Maybe" class="inline"> MAYBE</label>
+            </fieldset>
+            <fieldset>
+                <label for="">What are some of your favorite foods?</label>
+                <label for=""><input type="checkbox" name="fav-food" value="Pizza" class="inline">Pizza</label>
+                <label for=""><input type="checkbox" name="fav-food" value="Burger" class="inline">Burger</label>
+                <label for=""><input type="checkbox" name="fav-food" value="Nuggets" class="inline">Nuggets</label>
+                <label for=""><input type="checkbox" name="fav-food" value="FriedRice" class="inline">Fried Rice</label>
+                <label for=""><input type="checkbox" name="fav-food" value="Pasta" class="inline">Pasta</label>
+                <label for=""><input type="checkbox" name="fav-food" value="Curry" class="inline">Curry</label>
+                <label for=""><input type="checkbox" name="fav-food" value="Salad" class="inline">Salad</label>
+            </fieldset>
+            <fieldset>
+                <label for="">Any comments on your thoughts about food?
+                    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="What i like about food it that..."></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </body>
+</html>

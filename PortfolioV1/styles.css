@@ -85,16 +85,33 @@ main {
 }
 
 .about {
-    padding-top: 40px;
+    border-radius: 30px;
+    background-color: #97feed15;
+    padding: 50px;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+}
+.about div{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about div img{
+    border-radius: 50%;
+    width: 400px;
+    max-width: 60%;
+    padding: 10px;
 }
 .projects{
+    padding-top: 50px;
     color: white;
+    border-radius: 30px;
+    background-color: #97feed15;
+    
 }
 .projects h2 {
     text-align: center;
@@ -256,14 +273,20 @@ main {
     }
 }
 
-.content img {
-    padding: 40px;
-    border-radius: 25%;
-    max-width: 50%;
-}
 
 section {
     scroll-margin-top: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+    .about div{
+        width: 100%;
+        transition: all 1s ease;
+        flex-direction: column;
+    }
+    .about div img{
+        min-width: 350px;
+    }
 }
 
 /* @media only screen and (max-width: 600px) {

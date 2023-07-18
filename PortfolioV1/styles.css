@@ -40,11 +40,12 @@ ul {
     padding: 15px 20px;
     display: block;
     color: white;
+    transition: all 0.5s ease;
 }
 
 .nav-link a:hover {
     border-radius: 5px;
-    background-color: #0E8388;
+    background-color: #38a3a5;
 }
 
 main {
@@ -65,7 +66,7 @@ main {
     align-items: center;
     justify-content: center;
     padding-top: 300px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     scroll-margin-top: 50px;
 }
 
@@ -129,31 +130,31 @@ main {
 
 @keyframes rotateBorder {
     0% {
-        border-color: rgb(255, 0, 0);
-        box-shadow: 0 0 50px rgba(255, 0, 0);
+        border-color: #22577a;
+        box-shadow: 0 0 50px #22577a;
         /* transform: rotate(0deg); */
     }
 
     25% {
-        border-color: rgb(0, 255, 0);
-        box-shadow: 0 0 50px rgba(0, 255, 0);
+        border-color: #38a3a5;
+        box-shadow: 0 0 50px #38a3a5;
         /* transform: rotate(90deg); */
     }
 
     50% {
-        border-color: rgb(0, 0, 255);
-        box-shadow: 0 0 50px rgba(0, 0, 255);
+        border-color: #57cc99;
+        box-shadow: 0 0 50px #57cc99;
         /* transform: rotate(180deg); */
     }
 
     75% {
-        border-color: rgb(255, 255, 0);
-        box-shadow: 0 0 50px rgba(255, 255, 0);
+        border-color: #80ed99;
+        box-shadow: 0 0 50px #80ed99;
     }
 
     100% {
-        border-color: rgb(255, 0, 0);
-        box-shadow: 0 0 50px rgba(255, 0, 0);
+        border-color: #22577a;
+        box-shadow: 0 0 50px #22577a;
         /* transform: rotate(360deg); */
     }
 }
@@ -163,6 +164,7 @@ main {
     animation: rotateBorder 4s linear infinite;
     width: 260px;
     height: 400px;
+    transform: scale(1.1);
 }
 
 
@@ -180,13 +182,12 @@ main {
     position: absolute;
     background: #1f3d4738;
     backdrop-filter: blur(5px);
-    border-radius: 15px;
     color: #fff;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: 2s;
+    transition: 1.25s;
 }
 
 .card:hover .card-body {

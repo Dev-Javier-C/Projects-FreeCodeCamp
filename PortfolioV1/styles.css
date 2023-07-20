@@ -121,7 +121,7 @@ main {
     font-size: 40px;
 }
 .projects{
-    padding-top: 50px;
+    /* padding-top: 30px; */
     color: white;
     border-radius: 30px;
     /* background-color: #97feed15; */
@@ -255,6 +255,8 @@ main {
     cursor: pointer;
 }
 .contact{
+    padding-top: 50px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;

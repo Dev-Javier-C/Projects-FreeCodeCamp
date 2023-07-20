@@ -1,5 +1,3 @@
-
-
 * {
     padding: 0;
     margin: 0;
@@ -96,37 +94,44 @@ main {
     flex-direction: column;
     align-items: center;
 }
-.about div{
+
+.about div {
     padding-top: 30px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.about div img{
+
+.about div img {
     border-radius: 50%;
     width: 400px;
     max-width: 60%;
     padding: 10px;
 }
-.about div article{
+
+.about div article {
     font-size: 20px;
     padding: 20px;
 }
-.about div article h3{
+
+.about div article h3 {
     padding-bottom: 10px;
     text-transform: capitalize;
 }
-.about h2{
+
+.about h2 {
     font-size: 40px;
 }
-.projects{
+
+.projects {
     /* padding-top: 30px; */
     color: white;
     border-radius: 30px;
     /* background-color: #97feed15; */
-    
+
 }
+
 .projects h2 {
     text-align: center;
     padding: 20px;
@@ -227,7 +232,7 @@ main {
 
 .card-title {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -254,7 +259,8 @@ main {
     text-transform: capitalize;
     cursor: pointer;
 }
-.contact{
+
+.contact {
     padding-top: 50px;
     padding-bottom: 30px;
     display: flex;
@@ -272,76 +278,77 @@ main {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-  }
-  .icon-container {
+}
+
+.icon-container {
     font-family: "Merriweather", serif;
     font-size: 2rem;
-  }
-  
-  .icon-container a {
+}
+
+.icon-container a {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 2rem;
     color: #eee;
-  }
-  
-  .icon-container ul {
+}
+
+.icon-container ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     margin: 1rem;
     list-style-type: none;
     font-size: 7rem;
-  }
-  
-  .icon-container ul li {
+}
+
+.icon-container ul li {
     padding: 5rem;
-  }
-  
-  .fab {
+}
+
+.fab {
     font-size: 5rem;
-  }
-  
-  /* transition for social icon hover animation */
-  .fa-linkedin,
-  .fa-envelope,
-  .fa-github,
-  .fa-free-code-camp {
+}
+
+/* transition for social icon hover animation */
+.fa-linkedin,
+.fa-envelope,
+.fa-github,
+.fa-free-code-camp {
     transition: 0.4s;
     cursor: pointer;
-  }
-  
-  /* social media icons hover color */
-  .fa-linkedin:hover,
-  .fa-linkedin:focus {
+}
+
+/* social media icons hover color */
+.fa-linkedin:hover,
+.fa-linkedin:focus {
     color: #1877f2;
     transform: scale(1.1);
-  }
+}
 
-  .fa-envelope:hover,
-  .fa-envelope:focus {
+.fa-envelope:hover,
+.fa-envelope:focus {
     color: #df2426;
     transform: scale(1.1);
-  }
-  
-  .fa-github:hover,
-  .fa-github:focus {
+}
+
+.fa-github:hover,
+.fa-github:focus {
     color: #000;
     transform: scale(1.1);
-  }
-  
-  .fa-github:hover,
-  .fa-github:focus {
+}
+
+.fa-github:hover,
+.fa-github:focus {
     color: #000;
     transform: scale(1.1);
-  }
-  
-  
-  .fa-free-code-camp:hover,
-  .fa-free-code-camp:focus {
+}
+
+
+.fa-free-code-camp:hover,
+.fa-free-code-camp:focus {
     color: #05142b;
-  }
+}
 
 
 
@@ -379,14 +386,23 @@ section {
 }
 
 @media only screen and (max-width: 900px) {
-    .about div{
+    .about div {
         width: 100%;
         transition: all 1s ease;
         flex-direction: column;
     }
-    .about div img{
+
+    .about div img {
         min-width: 350px;
     }
+}
+@media only screen and (max-width: 650px) {
+    .icon-container ul {
+        font-size: 5rem;
+    }
+    .icon-container ul li {
+        padding: 3rem;
+    }    
 }
 
 /* @media only screen and (max-width: 600px) {
